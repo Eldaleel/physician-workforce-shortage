@@ -1,0 +1,13 @@
+Country Name,Country Code,Year,Actual,Predicted (Random Forest),Correct,Error Type
+Bahrain,BHR,2020,1,0,False,False Negative (missed shortage)
+Thailand,THA,2021,1,0,False,False Negative (missed shortage)
+Nepal,NPL,2021,1,0,False,False Negative (missed shortage)
+Viet Nam,VNM,2020,0,1,False,False Positive (false alarm)
+Sri Lanka,LKA,2018,0,1,False,False Positive (false alarm)
+Tajikistan,TJK,2018,0,1,False,False Positive (false alarm)
+South Africa,ZAF,2022,0,1,False,False Positive (false alarm)
+Kazakhstan,KAZ,2018,0,1,False,False Positive (false alarm)
+Maldives,MDV,2019,0,1,False,False Positive (false alarm)
+Gabon,GAB,2018,0,1,False,False Positive (false alarm)
+Eswatini,SWZ,2022,0,1,False,False Positive (false alarm)
+Tajikistan,TJK,2021,0,1,False,False Positive (false alarm)

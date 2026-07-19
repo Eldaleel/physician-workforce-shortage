@@ -1,0 +1,124 @@
+Country Name,Country Code,Year,Actual,Predicted (Random Forest),Correct
+Georgia,GEO,2020,0,0,True
+Viet Nam,VNM,2020,0,1,False
+Costa Rica,CRI,2018,0,0,True
+Zimbabwe,ZWE,2019,1,1,True
+Andorra,AND,2021,0,0,True
+Gabon,GAB,2020,1,1,True
+Senegal,SEN,2022,1,1,True
+Mozambique,MOZ,2020,1,1,True
+Vanuatu,VUT,2019,1,1,True
+Spain,ESP,2021,0,0,True
+France,FRA,2020,0,0,True
+Bahrain,BHR,2020,1,0,False
+New Zealand,NZL,2020,0,0,True
+Romania,ROU,2021,0,0,True
+Oman,OMN,2019,0,0,True
+Lesotho,LSO,2022,1,1,True
+Slovenia,SVN,2020,0,0,True
+Sierra Leone,SLE,2019,1,1,True
+Guyana,GUY,2020,0,0,True
+North Macedonia,MKD,2019,0,0,True
+Austria,AUT,2019,0,0,True
+Kuwait,KWT,2018,0,0,True
+Lithuania,LTU,2022,0,0,True
+Sri Lanka,LKA,2021,0,0,True
+Australia,AUS,2020,0,0,True
+Uganda,UGA,2022,1,1,True
+Denmark,DNK,2021,0,0,True
+Romania,ROU,2020,0,0,True
+Iceland,ISL,2022,0,0,True
+Lithuania,LTU,2018,0,0,True
+Afghanistan,AFG,2018,1,1,True
+Sri Lanka,LKA,2018,0,1,False
+Ireland,IRL,2018,0,0,True
+Trinidad and Tobago,TTO,2020,0,0,True
+Cambodia,KHM,2018,1,1,True
+Israel,ISR,2021,0,0,True
+Senegal,SEN,2021,1,1,True
+Benin,BEN,2018,1,1,True
+Azerbaijan,AZE,2019,0,0,True
+United Arab Emirates,ARE,2018,0,0,True
+United Kingdom,GBR,2019,0,0,True
+Malawi,MWI,2018,1,1,True
+Armenia,ARM,2020,0,0,True
+Tajikistan,TJK,2018,0,1,False
+South Africa,ZAF,2022,0,1,False
+Kazakhstan,KAZ,2018,0,1,False
+Guinea-Bissau,GNB,2018,1,1,True
+Niger,NER,2022,1,1,True
+Seychelles,SYC,2019,0,0,True
+Norway,NOR,2020,0,0,True
+Uruguay,URY,2021,0,0,True
+Paraguay,PRY,2020,0,0,True
+Slovenia,SVN,2018,0,0,True
+Tunisia,TUN,2021,0,0,True
+Maldives,MDV,2019,0,1,False
+Germany,DEU,2020,0,0,True
+Andorra,AND,2022,0,0,True
+Cameroon,CMR,2018,1,1,True
+New Zealand,NZL,2019,0,0,True
+New Zealand,NZL,2021,0,0,True
+Cuba,CUB,2018,0,0,True
+Bhutan,BTN,2020,1,1,True
+Syrian Arab Republic,SYR,2020,0,0,True
+Cabo Verde,CPV,2022,0,0,True
+Brunei Darussalam,BRN,2018,0,0,True
+Serbia,SRB,2022,0,0,True
+Dominican Republic,DOM,2020,0,0,True
+Poland,POL,2019,0,0,True
+Gabon,GAB,2018,0,1,False
+Thailand,THA,2021,1,0,False
+Mongolia,MNG,2021,0,0,True
+Namibia,NAM,2021,1,1,True
+Tonga,TON,2020,0,0,True
+Bangladesh,BGD,2020,1,1,True
+Argentina,ARG,2020,0,0,True
+Algeria,DZA,2022,0,0,True
+Benin,BEN,2022,1,1,True
+Russian Federation,RUS,2019,0,0,True
+Albania,ALB,2019,0,0,True
+Chile,CHL,2022,0,0,True
+Zambia,ZMB,2022,1,1,True
+Austria,AUT,2020,0,0,True
+Bangladesh,BGD,2019,1,1,True
+Japan,JPN,2018,0,0,True
+Liberia,LBR,2020,1,1,True
+Azerbaijan,AZE,2020,0,0,True
+Guinea-Bissau,GNB,2022,1,1,True
+Malta,MLT,2020,0,0,True
+Nepal,NPL,2021,1,0,False
+North Macedonia,MKD,2018,0,0,True
+Sweden,SWE,2018,0,0,True
+Angola,AGO,2018,1,1,True
+Russian Federation,RUS,2022,0,0,True
+Latvia,LVA,2018,0,0,True
+Montenegro,MNE,2020,0,0,True
+Romania,ROU,2018,0,0,True
+Costa Rica,CRI,2020,0,0,True
+Argentina,ARG,2019,0,0,True
+Hungary,HUN,2019,0,0,True
+Eswatini,SWZ,2022,0,1,False
+Germany,DEU,2019,0,0,True
+Tajikistan,TJK,2021,0,1,False
+Uruguay,URY,2022,0,0,True
+Hungary,HUN,2021,0,0,True
+United States,USA,2021,0,0,True
+Lesotho,LSO,2018,1,1,True
+Papua New Guinea,PNG,2018,1,1,True
+Barbados,BRB,2022,0,0,True
+Armenia,ARM,2021,0,0,True
+Kazakhstan,KAZ,2022,0,0,True
+Kazakhstan,KAZ,2021,0,0,True
+Rwanda,RWA,2018,1,1,True
+Togo,TGO,2018,1,1,True
+Saudi Arabia,SAU,2021,0,0,True
+Paraguay,PRY,2022,0,0,True
+Malta,MLT,2021,0,0,True
+Ghana,GHA,2021,1,1,True
+Ghana,GHA,2020,1,1,True
+Honduras,HND,2020,1,1,True
+Ethiopia,ETH,2021,1,1,True
+Pakistan,PAK,2018,0,0,True
+Azerbaijan,AZE,2021,0,0,True
+Liberia,LBR,2018,1,1,True
