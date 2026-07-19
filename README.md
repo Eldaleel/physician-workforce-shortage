@@ -54,6 +54,20 @@ The repository includes the fitted scaler and all four trained model artifacts. 
 streamlit run app.py
 ```
 
+### App walkthrough
+
+| Forecasting | Country explorer |
+|---|---|
+| ![Forecasting interface with a physician-shortage probability and feature-importance table](docs/screenshots/01-forecasting.png) | ![Country explorer comparing the model prediction with the recorded outcome](docs/screenshots/02-country-explorer.png) |
+
+| Global risk map | At-risk ranking |
+|---|---|
+| ![Global choropleth of predicted physician-shortage risk](docs/screenshots/03-global-risk-map.png) | ![Leaderboard of countries with the highest predicted shortage probability](docs/screenshots/04-at-risk-countries.png) |
+
+| Model comparison | Selection rationale |
+|---|---|
+| ![Held-out model metrics and visual comparison](docs/screenshots/05-model-comparison.png) | ![Written rationale for selecting Random Forest](docs/screenshots/06-model-justification.png) |
+
 ## Workflow
 
 1. Explored and aligned seven World Bank indicators.
