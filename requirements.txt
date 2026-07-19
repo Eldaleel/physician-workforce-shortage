@@ -5,7 +5,8 @@ numpy>=1.26
 pandas>=2.2
 plotly>=5.20
 pycountry>=24.6
-scikit-learn>=1.4
+scikit-learn==1.8.0
 scipy>=1.12
 seaborn>=0.13
+streamlit>=1.40
 xgboost>=2.0

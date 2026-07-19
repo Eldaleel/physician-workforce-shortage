@@ -38,6 +38,22 @@ Urban population, tertiary school enrolment, and population growth were the most
 
 ![Random Forest and XGBoost feature importance](outputs/figures/feature_importance.png)
 
+## Interactive Streamlit app
+
+`app.py` turns the analysis into an interactive decision-support tool. It includes:
+
+- Manual shortage-risk forecasting from six socio-economic indicators.
+- Country and year exploration against recorded outcomes.
+- A global predicted-risk map.
+- Rankings of the highest-risk countries by year.
+- A transparent comparison of all four evaluated models.
+
+The repository includes the fitted scaler and all four trained model artifacts. The app deploys the tuned Random Forest because it achieved the strongest held-out F1-score and ROC-AUC.
+
+```bash
+streamlit run app.py
+```
+
 ## Workflow
 
 1. Explored and aligned seven World Bank indicators.
@@ -52,6 +68,7 @@ Urban population, tertiary school enrolment, and population growth were the most
 ## Repository guide
 
 ```text
+app.py                       # interactive Streamlit application
 notebooks/
   01_exploration.ipynb
   02_2022_preparation.ipynb
@@ -65,7 +82,7 @@ outputs/
   tables/                  # metrics, predictions, and error analysis
   X_train.csv, X_test.csv  # reproducible split supplied with the project
   y_test.csv
-models/                    # generated locally; model binaries are gitignored
+models/                    # fitted scaler and four trained classifiers
 ```
 
 The processed modelling dataset is included, so the project can be reproduced from `04_model_building.ipynb` onward. The first three notebooks document the raw-data exploration and preparation workflow; see [data/README.md](data/README.md) for the expected source files.
@@ -82,6 +99,12 @@ jupyter lab
 ```
 
 Run `04_model_building.ipynb` before `05_model_evaluation.ipynb`. The first notebook generates the trained model files used by the evaluation notebook.
+
+To launch the included interactive application after installing the requirements:
+
+```bash
+streamlit run app.py
+```
 
 ## Limitations
 

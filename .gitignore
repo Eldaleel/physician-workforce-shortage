@@ -4,9 +4,6 @@
 __pycache__/
 *.py[cod]
 
-# Generated model binaries
-models/*.joblib
-
 # Local raw downloads
 data/GDP.csv
 data/health_expenditure.csv
